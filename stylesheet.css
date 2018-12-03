@@ -102,11 +102,9 @@ h3 {
 .grid-container {
   padding-left: 2em;
   display: grid;
-  height: 600 px;
   grid-column-gap: 4em;
   grid-template-columns: 50% 25%;
   grid-template-rows: 50% 50%;
-  /*grid-gap: 20px 30px;*/
 }
 .about-us {
   font-size: 17px;
