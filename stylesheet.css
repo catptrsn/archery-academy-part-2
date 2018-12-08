@@ -184,4 +184,10 @@ iframe {
 input, textarea, label {
   font-family: Arial;
   font-size: 17px;
+  box-sizing: border-box;
+  padding-left: 2em;
+  padding-bottom: .25em;
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
 }
