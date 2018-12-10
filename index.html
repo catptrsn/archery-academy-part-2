@@ -45,7 +45,7 @@
            <source src="https://youtu.be/k3WbvS8rKYQ">
            Your browser does not support video
          </video> -->
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/k3WbvS8rKYQ" frameborder="0"
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/k3WbvS8rKYQ"
          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </article>
     <section>
@@ -58,51 +58,59 @@
     </section>
     <section>
       <h2>Contact Us</h2>
+      <fieldset>
         <form action="/action.php" method="GET">
           <label for="firstName">First name:
            <input type="text" name="first-name" id="firstName">
           </label>
           <label for="lastName">Last name:
            <input type="text" name="last-name" id="lastName">
-         </label>
-         <label for="user-email">Email:
+          </label>
+          <label for="email">Email:
           <input type="email" name="user-email" id="email">
-         </label>
-         <label for="phone">Phone:
+          </label>
+          <label for="phone">Phone:
            <input type="tel" name="phone" id="phone">
-         </label>
-         <label for="Age">Age:
-          <input type="number" name="user-age" id=userAge min="7" max="99">
-          <label for="experienceLevel">Approximate Experience Level:
-            <input type="radio" name="experience" id=beginner value="beginner" checked>Beginner
           </label>
-          <label for="experienceLevel">
-            <input type="radio" name="experience" id=intermediate value="intermediate">Intermediate
+          <label for="Age">Age:
+           <input type="number" name="user-age" id="Age" min="7" max="99">
           </label>
-          <label for="experienceLevel">
-            <input type="radio" name="experience" id=advanced value="advanced">Advanced
+          <label for="experienceBeg">Approximate Experience Level:
+            <input type="radio" name="experience" id="experienceBeg" value="beginner" checked>Beginner
           </label>
-      <label for="lessons">Are you interested in group or private lessons?
-        <input type="checkbox" name="lessons" value="group">Group instruction
-        <input type="checkbox" name="lessos" value="private">Private instruction
-      </label>
-      <label for="source">How did you hear about us?
-        <input type="checkbox" name="source" value="google">Google search
-        <input type="checkbox" name="source" value="friend">Friend
-        <input type="checkbox" name="source" value="radio">Radio advertisement
-        <input type="checkbox" name="source" value="other">Other (please specify)
-          <label for="other">
-           <input type="text" name="source" id="other">
+          <label for="experienceInt">
+            <input type="radio" name="experience" id="experienceInt" value="intermediate">Intermediate
           </label>
-      </label>
-      <!-- <label for="questions">Questions and comments:
-       <input type="text" name="questions" id="questions">
-      </label> -->
-      <label for="questions">Questions and comments:
-       <textarea rows="15" cols="10"></textarea>
-      </label>
-      <input type="submit" value="send" name="submit">
+          <label for="experienceAd">
+              <input type="radio" name="experience" id="experienceAd" value="advanced">Advanced
+          </label>
+          <label for="lessonsGroup">Are you interested in group or private lessons?
+            <input type="checkbox" name="lessons" id="lessonsGroup" value="group">Group instruction
+          </label>
+          <label for="lessonsPrivate">
+            <input type="checkbox" name="lessons" id="lessonsPrivate" value="private">Private instruction
+          </label>
+          <label for="sourceGoogle">How did you hear about us?
+            <input type="checkbox" name="source" id="sourceGoogle" value="google">Google search
+          </label>
+          <label for="sourceFriend">
+            <input type="checkbox" name="source" id="sourceFriend" value="friend">Friend
+          </label>
+          <label for="sourceRadio">
+            <input type="checkbox" name="source" id="sourceRadio" value="radio">Radio advertisement
+          </label>
+          <label for="sourceOther">
+            <input type="checkbox" name="source" id="sourceOther" value="other">Other (please specify)
+          </label>
+          <label for="otherSpecify">
+              <input type="text" name="source" id="otherSpecify">
+          </label>
+          <label for="comments">Questions and comments:
+           <textarea rows="15" cols="10" id="comments"></textarea>
+          </label>
+          <input type="submit" value="send" name="submit">
       </form>
+    </fieldset>
     </section>
   <footer>
     <img class=footerimg src="design-elements/archeryAcademy-logo-white.png" alt= "White logo">
