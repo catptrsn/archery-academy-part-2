@@ -19,7 +19,7 @@ li {
   transition-property: font-size; font-weight;
   transition-delay: 0s;
 }
-.our-team:hover {
+.about-us:hover {
   color: white;
   font-size: 22px;
   font-weight: bold;
@@ -106,7 +106,7 @@ h3 {
   grid-template-columns: 50% 25%;
   grid-template-rows: 50% 50%;
 }
-.about-us {
+.qualifications {
   font-size: 17px;
   font-family: Arial;
   padding-left: 1em;
@@ -204,6 +204,21 @@ label {
 }
 input[type=number] {
   width: 10%;
+}
+input[type=text]:focus {
+  border: 5px solid yellow;
+}
+input[type=email]:focus {
+  border: 5px solid yellow;
+}
+input[type=tel]:focus {
+  border: 5px solid yellow;
+}
+input[type=number]:focus {
+  border: 5px solid yellow;
+}
+textarea:focus {
+  border: 5px solid yellow;
 }
 input[type=submit] {
   width: 8%;
