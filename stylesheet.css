@@ -206,21 +206,24 @@ input[type=number] {
   width: 10%;
 }
 input[type=text]:focus {
-  border: 5px solid yellow;
+  border: 5px solid #000094;
 }
 input[type=email]:focus {
-  border: 5px solid yellow;
+  border: 5px solid #000094;
 }
 input[type=tel]:focus {
-  border: 5px solid yellow;
+  border: 5px solid #000094;
 }
 input[type=number]:focus {
-  border: 5px solid yellow;
+  border: 5px solid #000094;
 }
 textarea:focus {
-  border: 5px solid yellow;
+  border: 5px solid #000094;
 }
 input[type=submit] {
   width: 8%;
   color: black;
+}
+input[type=submit]:focus {
+  border: 5px solid #000094;
 }
